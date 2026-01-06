@@ -6,6 +6,7 @@
 		"bta-21w36b.jar":		"https://github.com/Better-than-Adventure/bta-download-repo/releases/download/21w36b/bta.jar",
 		"bta-21w36a.jar":		"https://github.com/Better-than-Adventure/bta-download-repo/releases/download/21w36a/bta.jar",
 		"bta-21w34a.jar":		"https://github.com/Better-than-Adventure/bta-download-repo/releases/download/21w34a/bta.jar",
+		"bta-7.3_04.jar":		"https://downloads.betterthanadventure.net/bta-client/release/v7.3_01/bta.v7.3_04.client.jar",
 		"bta-7.3_01.jar":		"https://downloads.betterthanadventure.net/bta-client/release/v7.3_01/bta.v7.3_01.client.jar",
 		"bta-7.3.jar":			"https://downloads.betterthanadventure.net/bta-client/release/v7.3/bta.v7.3.client.jar",
 		"bta-7.2_01.jar":		"https://github.com/Better-than-Adventure/bta-download-repo/releases/download/v7.2_01/bta-7.2_01-client.jar",
@@ -57,9 +58,18 @@
 		"url": "https://github.com/Bestsoft101/ASMLoader/releases/download/v2-DEV-2024-06-22/ASMLoader-v2-DEV-2024-06-22.jar"
 	},
 	"latest": {
-		"stable": "7.3_01"
+		"stable": "7.3_04"
 	},
 	"versions": {
+		"7.3_04": {
+			"jar": "bta-7.3_04.jar",
+			"vanilla": {
+				"json": "BTA LWJGL3.json",
+			},
+			"multimc": {
+				"type": "lwjgl3"
+			}
+		},
 		"7.3_01": {
 			"jar": "bta-7.3_01.jar",
 			"vanilla": {
